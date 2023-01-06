@@ -11,3 +11,156 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  width:100vw;
+  overflow: scroll;
+}
+
+.carousel-image {
+  height:100%;
+  aspect-ratio: 3/4;
+  object-fit: contain;
+}
+
+.card-progress {
+  height:100%;
+  background-color: rgb(115, 115, 115);
+}
+
+.card-progress-container {
+  height:1em;
+  width:100vw;
+  background-color: rgb(221, 221, 221);
+}
+
+.pause-play {
+  flex:1;
+  height:4em;
+  /* background-color: rgb(221, 221, 221); */
+  /* border: none; */
+}
+
+.controls {
+  width:100vw;
+  display: flex;
+}
+
+button {
+  border-radius: 0;
+}
+
+.settings-open {
+width:8em;
+height:4em;
+/* border: none; */
+}
+.settings-close {
+  width:100%;
+  height:3em;
+}
+.settings {
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1em;
+  width:90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.velocity-button {
+  font-size: 3em;
+  background-color: transparent;
+  border: none;
+}
+.velocity-container {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em;
+}
+
+.grid-container {
+  height:80vh;
+  padding:1vh;
+}
+
+.card {
+  padding:1vh;
+  perspective: 1000px;
+}
+
+.card img {
+  object-fit: contain;
+  /* width:70vw; */
+  height:80vh;
+  aspect-ratio: 3/4;
+  /* margin-block:2em;  */
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.card-container {
+  width:100vw;
+  
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.card.flipping img {
+  transform: rotateY(180deg);
+}
+
+.hidden {
+  display: none;
+}
+
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-inner {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  width: 80vw;
+  height: 50vh;
+  overflow: scroll;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 4em;
+}
+
+.image-grid img {
+  width: 5em;
+  margin-bottom:2em;
+}
+
