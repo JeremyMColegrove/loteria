@@ -148,25 +148,29 @@ function shuffleCards() {
       </div>
 
 
-      {/* Display the progress bar */}
-      <div className="card-progress-container">
-        {!allImagesShown && <div className="card-progress" style={{ width: `${((velocity-timeLeft) / velocity) * 100}%`}} />}
-      </div>
+      
+
       <div className="controls">
-        {/* Display the pause/play button */}
-        {!allImagesShown && <button className="pause-play" onClick={handlePauseClick}>
-          {isPaused ? 'Play' : 'Pause'}
-        </button>}
-        {allImagesShown && <button className='pause-play' onClick={resetGame}>
-          Restart Game
-        </button>
-        }
-        <SettingsMenu velocity={velocity} handleVelocityChange={handleVelocityChange}/>
-        <ImagePopup images={images} previousImages={previousImages}/>
-          {/* Toggle button */}
-        <button className="settings-open" onClick={() => setDisplayMode(displayMode === 'slideshow' ? 'grid' : 'slideshow')}>
-          Toggle Mode
-        </button>
+        {/*  Display the progress bar */}
+        <div className="card-progress-container">
+          {!allImagesShown && <div className="card-progress" style={{ width: `${((velocity-timeLeft) / velocity) * 100}%`}} />}
+        </div>
+        <div className="control-buttons-container">
+          {/* Display the pause/play button */}
+          {!allImagesShown && <button className="pause-play" onClick={handlePauseClick}>
+            {isPaused ? 'Play' : 'Pause'}
+          </button>}
+          {allImagesShown && <button className='pause-play' onClick={resetGame}>
+            Restart Game
+          </button>
+          }
+          <SettingsMenu velocity={velocity} handleVelocityChange={handleVelocityChange}/>
+          <ImagePopup images={images} previousImages={previousImages}/>
+            {/* Toggle button */}
+          <button className="settings-open" onClick={() => setDisplayMode(displayMode === 'slideshow' ? 'grid' : 'slideshow')}>
+            Toggle Mode
+          </button>
+        </div>
       </div>
       
     </div>

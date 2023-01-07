@@ -13,17 +13,47 @@ code {
 }
 
 .game-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100vh; 
+  /* background-color: yellow; */
 }
 
 .carousel {
   display: flex;
+  width:100vw;
+  overflow: scroll;
+  /* background-color: red; */
+  padding-block: 5px;
+  position: fixed;
+  top:0;
+  left:0;
+  height:5em;
+  z-index: 1;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
   align-items: center;
   width:100vw;
+  height:100vh;
+  /* background-color: green; */
+}
+
+.controls {
+  height:5em;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100vw;
+  /* background-color: blue; */
+}
+
+.control-buttons-container {
+  display: flex;
   overflow: scroll;
 }
 
@@ -51,10 +81,7 @@ code {
   /* border: none; */
 }
 
-.controls {
-  width:100vw;
-  display: flex;
-}
+
 
 button {
   border-radius: 0;
@@ -96,33 +123,32 @@ height:4em;
   margin: 2em;
 }
 
-.grid-container {
+/* .grid-container {
   height:80vh;
   padding:1vh;
-}
+} */
 
 .card {
-  padding:1vh;
+  display: flex;
+  justify-content: center;
   perspective: 1000px;
+  max-height:calc(100vh - 12em);
+  max-width:90vw;
+  height:100%;
+  aspect-ratio: 3/4;
+  /* background-color: blue; */
+  z-index: 2;
 }
 
 .card img {
   object-fit: contain;
-  /* width:70vw; */
-  height:80vh;
-  aspect-ratio: 3/4;
-  /* margin-block:2em;  */
+  height: 100%;
+  max-width:100%;
+
   transition: transform 0.5s;
   transform-style: preserve-3d;
 }
 
-.card-container {
-  width:100vw;
-  
-  display: flex;
-  flex: 1;
-  justify-content: center;
-}
 .card.flipping img {
   transform: rotateY(180deg);
 }
@@ -131,7 +157,7 @@ height:4em;
   display: none;
 }
 
-
+/* 
 .popup {
   position: fixed;
   top: 0;
@@ -159,8 +185,8 @@ height:4em;
   margin-bottom: 4em;
 }
 
-.image-grid img {
+/* .image-grid img {
   width: 5em;
   margin-bottom:2em;
-}
-
+} */
+ 

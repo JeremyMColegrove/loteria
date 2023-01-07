@@ -28,7 +28,7 @@ function Card({ src }) {
 
   return (
     <div className={"card " + (isFlipping ? 'flipping' : '')}>
-      <img className="card-image" src={currentSrc} alt="slideshow"/>
+      <img src={currentSrc} alt="slideshow"/>
     </div>
   );
 }
