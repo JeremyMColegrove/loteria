@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/loteria/static/css/main.5a584962.css",
-    "main.js": "/loteria/static/js/main.81e7754e.js",
+    "main.js": "/loteria/static/js/main.6f75cc53.js",
     "static/js/845.53231017.chunk.js": "/loteria/static/js/845.53231017.chunk.js",
     "static/media/material-icons-two-tone.woff": "/loteria/static/media/material-icons-two-tone.3baa5b8f3469222b822d.woff",
     "static/media/material-icons-two-tone.woff2": "/loteria/static/media/material-icons-two-tone.4ef4218c522f1eb6b5b1.woff2",
@@ -38,6 +38,7 @@
     "static/media/jaras.jpg": "/loteria/static/media/jaras.07e1bd736984217154f3.jpg",
     "static/media/calavera.jpg": "/loteria/static/media/calavera.7b3cf6efceb8a60dd7be.jpg",
     "static/media/soldado.jpg": "/loteria/static/media/soldado.0fba3f88dbc0b16f1b47.jpg",
+    "static/media/click.mp3": "/loteria/static/media/click.d1070f66a29c11a1c8bd.mp3",
     "static/media/sandia.jpg": "/loteria/static/media/sandia.34dcaec4c6a6037d15de.jpg",
     "static/media/dama.jpg": "/loteria/static/media/dama.77324b88f65ac3ba7699.jpg",
     "static/media/luna.jpg": "/loteria/static/media/luna.2bc274e709bb388a7a03.jpg",
@@ -82,11 +83,11 @@
     "static/media/nopal.mp3": "/loteria/static/media/nopal.63684a69a9ac9fff7dbf.mp3",
     "index.html": "/loteria/index.html",
     "main.5a584962.css.map": "/loteria/static/css/main.5a584962.css.map",
-    "main.81e7754e.js.map": "/loteria/static/js/main.81e7754e.js.map",
+    "main.6f75cc53.js.map": "/loteria/static/js/main.6f75cc53.js.map",
     "845.53231017.chunk.js.map": "/loteria/static/js/845.53231017.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a584962.css",
-    "static/js/main.81e7754e.js"
+    "static/js/main.6f75cc53.js"
   ]
 }
