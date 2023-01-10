@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/loteria/static/css/main.b737fe66.css",
+    "main.css": "/loteria/static/css/main.39b1b462.css",
     "main.js": "/loteria/static/js/main.7cda2df5.js",
     "static/media/emptyCard.png": "/loteria/static/media/emptyCard.9d5277b507197bdd15e2.png",
     "static/media/pescado.jpg": "/loteria/static/media/pescado.c187cf241c4b0cea5000.jpg",
@@ -35,11 +35,11 @@
     "static/media/cotorro.jpeg": "/loteria/static/media/cotorro.4f3786986430c50cbfe1.jpeg",
     "static/media/pera.jpg": "/loteria/static/media/pera.b4534286b84df432f7b1.jpg",
     "index.html": "/loteria/index.html",
-    "main.b737fe66.css.map": "/loteria/static/css/main.b737fe66.css.map",
+    "main.39b1b462.css.map": "/loteria/static/css/main.39b1b462.css.map",
     "main.7cda2df5.js.map": "/loteria/static/js/main.7cda2df5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b737fe66.css",
+    "static/css/main.39b1b462.css",
     "static/js/main.7cda2df5.js"
   ]
 }
