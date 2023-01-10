@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/loteria/static/css/main.5a584962.css",
-    "main.js": "/loteria/static/js/main.ae77ed64.js",
+    "main.js": "/loteria/static/js/main.81e7754e.js",
     "static/js/845.53231017.chunk.js": "/loteria/static/js/845.53231017.chunk.js",
     "static/media/material-icons-two-tone.woff": "/loteria/static/media/material-icons-two-tone.3baa5b8f3469222b822d.woff",
     "static/media/material-icons-two-tone.woff2": "/loteria/static/media/material-icons-two-tone.4ef4218c522f1eb6b5b1.woff2",
@@ -45,6 +45,7 @@
     "static/media/cantarito.jpg": "/loteria/static/media/cantarito.c1dd7800b1eadeaa1bb2.jpg",
     "static/media/cotorro.jpeg": "/loteria/static/media/cotorro.4f3786986430c50cbfe1.jpeg",
     "static/media/pera.jpg": "/loteria/static/media/pera.b4534286b84df432f7b1.jpg",
+    "static/media/starting.mp3": "/loteria/static/media/starting.393551775e15672007bd.mp3",
     "static/media/cantarito.mp3": "/loteria/static/media/cantarito.1eeddbbb30cc9bb64d7a.mp3",
     "static/media/calavera.mp3": "/loteria/static/media/calavera.2a5b5665d9b675f9b30a.mp3",
     "static/media/cotorro.mp3": "/loteria/static/media/cotorro.9afe9590dae0a533fe1c.mp3",
@@ -81,11 +82,11 @@
     "static/media/nopal.mp3": "/loteria/static/media/nopal.63684a69a9ac9fff7dbf.mp3",
     "index.html": "/loteria/index.html",
     "main.5a584962.css.map": "/loteria/static/css/main.5a584962.css.map",
-    "main.ae77ed64.js.map": "/loteria/static/js/main.ae77ed64.js.map",
+    "main.81e7754e.js.map": "/loteria/static/js/main.81e7754e.js.map",
     "845.53231017.chunk.js.map": "/loteria/static/js/845.53231017.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a584962.css",
-    "static/js/main.ae77ed64.js"
+    "static/js/main.81e7754e.js"
   ]
 }
